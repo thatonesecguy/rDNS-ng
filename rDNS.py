@@ -14,7 +14,7 @@ def banner():
         data = f.read()
 
         print(f'{Fore.GREEN}%s{Style.RESET_ALL}' % data)
-        print("Providing you with Reveese DNS on subnets, IP ranges and IP lists")
+        print("Providing you with Reverse DNS on subnets, IP ranges and IP lists")
         print("Author : Harshil Shah (@harshil-shah004)")
 
 banner()
@@ -29,10 +29,6 @@ parser.add_argument("-is", dest="subnet",
 parser.add_argument("-f", dest="save_file",
                     help= "write output to a file",metavar="Output File")
 
-
-
-
-
 if len(sys.argv)==1:
     parser.print_help()
     sys.exit(1)
@@ -46,11 +42,6 @@ found_count = 0
 not_found_count = 0
 not_found = 0
 found = 0
-
-
-
-
-
 
 def sig_handler(signum,frm):
     print("\n\n[+] Keyboard Interrupt occured.")
