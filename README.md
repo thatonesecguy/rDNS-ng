@@ -10,3 +10,5 @@ optional arguments:
     -ir IP Range    ----> eg: 192.168.0.1-192.168.2.0
     -is Subnet      ----> eg: 192.168.0.1/24
     -f Output file  ----> write output to a file
+
+![alt text](https://github.com/harshil-shah004/rDNS-ng/blob/master/img.png)
