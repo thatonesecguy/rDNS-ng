@@ -11,4 +11,4 @@ optional arguments:
     -is Subnet      ----> eg: 192.168.0.1/24
     -f Output file  ----> write output to a file
 
-![alt text](https://github.com/harshil-shah004/rDNS-ng/blob/master/img.png)
+![alt text](https://github.com/harshil-shah004/rDNS-ng/blob/master/sample.png)
