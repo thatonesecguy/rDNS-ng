@@ -1,6 +1,7 @@
 # rDNS-ng
 A reverse dns lookup tool for a range of given IP's or a whole subnet.
 
+Note : Runs only on Python3.x ... No support for Python2!
 
 usage: `rDNS.py [-h] [-ir IP Range] [-is Subnet] [-f Output file]`
 
