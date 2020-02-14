@@ -16,6 +16,8 @@ def banner():
         print(f'{Fore.GREEN}%s{Style.RESET_ALL}' % data)
         print("Providing you with Reverse DNS on subnets, IP ranges and IP lists")
         print("Author : Harshil Shah (@harshil-shah004)")
+	print("\n")
+	print("\n")
 
 banner()
 
